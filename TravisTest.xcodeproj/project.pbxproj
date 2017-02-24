@@ -15,6 +15,7 @@
 		115A8C861E5FC388008956C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115A8C841E5FC388008956C2 /* LaunchScreen.storyboard */; };
 		115A8C911E5FC389008956C2 /* TravisTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115A8C901E5FC389008956C2 /* TravisTestTests.swift */; };
 		115A8C9C1E5FC389008956C2 /* TravisTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115A8C9B1E5FC389008956C2 /* TravisTestUITests.swift */; };
+		115A8CAD1E5FD2B9008956C2 /* Whatever.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115A8CAC1E5FD2B9008956C2 /* Whatever.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		115A8C971E5FC389008956C2 /* TravisTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravisTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		115A8C9B1E5FC389008956C2 /* TravisTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravisTestUITests.swift; sourceTree = "<group>"; };
 		115A8C9D1E5FC389008956C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		115A8CAC1E5FD2B9008956C2 /* Whatever.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Whatever.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				115A8C841E5FC388008956C2 /* LaunchScreen.storyboard */,
 				115A8C871E5FC388008956C2 /* Info.plist */,
 				115A8C7F1E5FC388008956C2 /* TravisTest.xcdatamodeld */,
+				115A8CAC1E5FD2B9008956C2 /* Whatever.swift */,
 			);
 			path = TravisTest;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				115A8C811E5FC388008956C2 /* TravisTest.xcdatamodeld in Sources */,
 				115A8C7B1E5FC388008956C2 /* ViewController.swift in Sources */,
 				115A8C791E5FC388008956C2 /* AppDelegate.swift in Sources */,
+				115A8CAD1E5FD2B9008956C2 /* Whatever.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +520,7 @@
 				115A8CA21E5FC389008956C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		115A8CA31E5FC389008956C2 /* Build configuration list for PBXNativeTarget "TravisTestTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +529,7 @@
 				115A8CA51E5FC389008956C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		115A8CA61E5FC389008956C2 /* Build configuration list for PBXNativeTarget "TravisTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +538,7 @@
 				115A8CA81E5FC389008956C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
