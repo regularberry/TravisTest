@@ -21,16 +21,15 @@ class TravisTestTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testCoolioInit() {
+        let c = Coolio(x: 1, y: 2)
+        XCTAssert(c.x == 1)
+        XCTAssert(c.y == 2)
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testAddition() {
+        let c = Coolio(x: 1, y: 2)
+        XCTAssert(c.add() == 3)
     }
     
 }
