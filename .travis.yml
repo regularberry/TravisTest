@@ -2,4 +2,4 @@ language: objective-c
 osx_image: xcode8.2
 
 script:
-  - xcodebuild test -scheme TravisTest -project TravisTest.xcodeproj -destination "platform=iOS Simulator,name=iPhone 7,OS=10.2" CODE_SIGNING_REQUIRED=NO;
+  - xcodebuild test -scheme TravisTest -project TravisTest.xcodeproj -destination "platform=iOS Simulator,name=iPhone 7,OS=10.2,id=22FA2149-1241-469C-BF6D-462D3837DB72" CODE_SIGNING_REQUIRED=NO;
